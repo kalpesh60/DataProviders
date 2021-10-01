@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+        <run>
+            <include name="A" />
+        </run>
+    </groups>
+    
+    <classes>
+      <class name="Testng.DataProvider.DataProviderByGroups"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="example2">
+
+    <groups>
+        <run>
+            <include name="B" />
+        </run>
+    </groups>
+
+    <classes>
+       <class
+        name="Testng.DataProvider.DataProviderByGroups" />
+    </classes>
+
+  </test>
+</suite> <!-- Suite -->

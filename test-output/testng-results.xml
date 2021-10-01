@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-28T18:34:55Z" name="Default suite" finished-at="2021-09-28T18:35:07Z" duration-ms="12030">
+    <groups>
+    </groups>
+    <test started-at="2021-09-28T18:34:55Z" name="Default test" finished-at="2021-09-28T18:35:07Z" duration-ms="12030">
+      <class name="Testng.DataProvider.DataProviderByExcel">
+        <test-method signature="launchBrowser()[pri:0, instance:Testng.DataProvider.DataProviderByExcel@75d3a5e0]" started-at="2021-09-28T18:34:55Z" name="launchBrowser" finished-at="2021-09-28T18:34:57Z" duration-ms="2397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="firstName_lastName(java.lang.String, java.lang.String)[pri:1, instance:Testng.DataProvider.DataProviderByExcel@75d3a5e0]" started-at="2021-09-28T18:34:58Z" name="firstName_lastName" data-provider="excel-data" finished-at="2021-09-28T18:35:00Z" duration-ms="2273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstName_lastName -->
+        <test-method signature="firstName_lastName(java.lang.String, java.lang.String)[pri:1, instance:Testng.DataProvider.DataProviderByExcel@75d3a5e0]" started-at="2021-09-28T18:35:00Z" name="firstName_lastName" data-provider="excel-data" finished-at="2021-09-28T18:35:03Z" duration-ms="2234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin213@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstName_lastName -->
+        <test-method signature="firstName_lastName(java.lang.String, java.lang.String)[pri:1, instance:Testng.DataProvider.DataProviderByExcel@75d3a5e0]" started-at="2021-09-28T18:35:03Z" name="firstName_lastName" data-provider="excel-data" finished-at="2021-09-28T18:35:05Z" duration-ms="2213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin789@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstName_lastName -->
+        <test-method signature="firstName_lastName(java.lang.String, java.lang.String)[pri:1, instance:Testng.DataProvider.DataProviderByExcel@75d3a5e0]" started-at="2021-09-28T18:35:05Z" name="firstName_lastName" data-provider="excel-data" finished-at="2021-09-28T18:35:07Z" duration-ms="2207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin567@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sdf345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstName_lastName -->
+      </class> <!-- Testng.DataProvider.DataProviderByExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
